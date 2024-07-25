@@ -1,5 +1,5 @@
-import { Funcionario } from "./entidade/funcionario";
-import { Pessoa } from "./entidade/pessoa";
+import { Conta } from "./entidade/conta";
 
-let funcionarioFula: Funcionario;
-let pessoa: Pessoa;
+let contaBancario: Conta = new Conta('Taciro', 'Balde', 25, 'M', 4050044433, 0.0)
+
+console.log(contaBancario)

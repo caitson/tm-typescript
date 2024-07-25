@@ -1,17 +1,21 @@
 export class Pessoa {
-    protected _nome: string;
-    apelido: string;
-    idade: number;
-    genero: string
+    public nome: string;
+    public apelido: string;
+    public idade: number;
 
-    constructor(n: string, a: string, i: number, g: string){
-        this._nome = n;
+
+    constructor(n: string, a: string, i: number){
+        this.nome = n;
         this.apelido = a;
         this.idade = i;
-        this.genero = g;
     }  
     
-public get nome_(){
-    return this._nome;
-} 
+    // public get nome(){
+    //     return this._nome;
+    // } 
+
+    // public set nome(nome: string){
+    //     this._nome = nome;
+    // }
+
 }
